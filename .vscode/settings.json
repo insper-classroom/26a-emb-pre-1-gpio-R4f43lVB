@@ -30,4 +30,6 @@
         "workbench.action.tasks.configureTaskRunner",
         "workbench.action.tasks.runTask"
     ]
+    // "python-envs.defaultEnvManager": "ms-python.python:system",
+    // "python-envs.pythonProjects": []
 }
