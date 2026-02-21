@@ -1,4 +1,5 @@
 #include "stdio.h"
+int b = 0;
 
 void foo(int *a) {
     *a = *a + 1; // acessa variavel global
@@ -6,7 +7,6 @@ void foo(int *a) {
 
 void main(void) {
     int a = 0;
-    int b = 0;
     while (1) {
         foo(&a);
         
